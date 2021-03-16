@@ -1,0 +1,31 @@
+/* pages/7-8/7-8.wxss */
+.v1{
+  display: flex;
+  flex-direction: column;
+}
+
+image{
+  height: 300rpx;
+  width: 300rpx;
+  border-radius: 50%;
+  margin: 30rpx auto;
+}
+
+.v2{
+  display: flex;
+  justify-content: space-between;
+  margin:auto 20rpx;
+}
+
+.i1{
+  animation: move 5s linear infinite;
+}
+
+@keyframes move{
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}

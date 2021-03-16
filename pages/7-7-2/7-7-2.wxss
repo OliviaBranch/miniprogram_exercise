@@ -1,0 +1,33 @@
+/* pages/1/1.wxss */
+.v1{
+  border: 1px solid black;
+  width: 500rpx;
+  margin: 50rpx auto auto auto;
+  display: flex;
+  flex-direction: column;
+}
+
+image{
+  height: 400rpx;
+  width: 400rpx;
+  border-radius: 50%;
+  margin: 10rpx auto;
+}
+
+button{
+  width: 100%;
+  margin: 6rpx auto auto auto;
+}
+
+.i1{
+  animation: move 5s linear infinite;
+}
+
+@keyframes move{
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}

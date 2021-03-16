@@ -1,0 +1,15 @@
+<!--pages/7-10/7-10.wxml-->
+<view class="v1">
+  <image src="{{songjson.topinfo.picDetail}}"></image>
+  <text class="t1">{{songjson.topinfo.ListName}}</text>
+  <text class="t2">更新时间：{{songjson.update_time}}</text>
+  <text class="t3">排行榜 共{{songjson.total_song_num}}首</text>
+  <view bindtap="toplay" class="v3" wx:for="{{songjson.songlist}}" data-songmid="{{item.data.songmid}}" data-albumid="{{item.data.albumid}}" data-songname="{{item.data.albumname}}">
+    <view class="v4">{{index+1}}</view>
+    <view class="v2">
+      <text class="t4">{{item.data.albumname}}</text>
+      <text class="t5">{{item.data.singer[0].name}}</text>
+    </view>
+  </view>
+</view>
+

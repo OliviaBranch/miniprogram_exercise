@@ -1,0 +1,61 @@
+/* pages/7-10/7-10.wxss */
+
+.v1{
+  display: flex;
+  flex-direction: column;
+}
+
+.v2{
+  display: flex;
+  flex-direction: column;
+}
+
+.v3{
+  display: flex;
+  width: 95%;
+  margin: 10rpx auto;
+  background-color: #eee;
+}
+
+.v4{
+  width: 80rpx;
+  height: 80rpx;
+  margin: auto 15rpx auto 0;
+  text-align: center;
+  line-height: 80rpx;  
+}
+
+
+.t1{
+  margin: 15rpx auto;
+}
+
+.t2{
+  font-size: 24rpx;
+  color: grey;
+  margin: 15rpx auto;
+}
+
+.t3{
+  font-size: 24rpx;
+  color: grey;
+  margin: 15rpx auto auto 20rpx;
+}
+
+.t4{
+  margin: 5rpx 0 10rpx 0;
+}
+
+.t5{
+  font-size: 24rpx;
+  margin: 5rpx 0 10rpx 0;
+}
+
+
+image{
+  width: 300rpx;
+  height: 200rpx;
+  border-radius: 10%;
+  margin: 10rpx auto;
+  box-shadow:2px 2px 5px grey;
+}

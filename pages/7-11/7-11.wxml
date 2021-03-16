@@ -1,0 +1,11 @@
+<!--pages/7-11/7-11.wxml-->
+
+<view class="v1">
+<input value="{{val}}" bindinput="input" class="in1" placeholder="请输入您要查询的歌手/歌曲"/>
+<button bindtap="search">搜索</button>
+</view>
+
+<view class="v2" bindtap="toplay" wx:for="{{songlist}}" data-songmid="{{item.songmid}}" data-albumid="{{item.albumid}}" data-songname="{{item.songname}}">
+    <text class="t1">{{item.songname}}</text>
+    <text class="t2">{{item.singer[0].name}}</text>
+</view>

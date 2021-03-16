@@ -1,0 +1,7 @@
+<view class="v1">
+<image src='{{imagesrc}}' class='{{isplay?"i1":""}}'></image>
+<button bindtap="action" data-type="play">播放</button>
+<button bindtap="action" data-type="pause">暂停</button>
+<button bindtap="action" data-type="seek30">跳到30秒</button>
+<button bindtap="action" data-type="seek0">返回开头</button>
+</view>

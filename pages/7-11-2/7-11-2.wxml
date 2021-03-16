@@ -1,0 +1,13 @@
+<view class="v1">
+  <image src="{{imagesrc}}" bindtap="play" class='{{isplay?"i1":""}}'></image>
+  <slider
+    min="0"
+    max="{{max}}"
+    value="{{val}}"
+    bindchange="change">
+  </slider>
+<view class="v2">
+  <view>{{start}}</view>
+  <view>{{end}}</view>
+</view>
+</view>

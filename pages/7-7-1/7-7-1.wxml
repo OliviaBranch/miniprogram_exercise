@@ -1,0 +1,8 @@
+<!--pages/1/1.wxml-->
+<view class="v1">
+<image src='{{imagesrc}}' class='{{isplay?"i1":""}}'></image>
+<button bindtap="play">播放</button>
+<button bindtap="pause">暂停</button>
+<button bindtap="seek30">跳到30秒</button>
+<button bindtap="seek0">返回开头</button>
+</view>
